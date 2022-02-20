@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: beige;
+}
+
+header {
+   background-color: white;
+}
+
+header > h1 {
+   color: darkblue;
+   text-align: center;
+   font-family: "Assistant", sans-serif;
+   font-size: 36px;
+   padding: 20px;
+}
+
+.score-board {
+   border: 3px solid white;
+   border-radius: 4px;
+   margin: 20px auto;
+   width: 200px;
+   padding: 20px;
+   text-align: center;
+   font-family: "Assistant", sans-serif;
+   position: relative;
+}
+
+.badge {
+   background: orange;
+   color: beige;
+   font-size: 24px;
+   padding: 2px;
+}
+
+#user-label {
+   position: absolute;
+   top: 30px;
+   left: -25px;
+}
+
+#com-label {
+   position: absolute;
+   top: 30px;
+   right: -70px;
+}
+
+.result {
+   font-size: 40px;
+   color: black;
+}
+
+.result > p {
+   text-align: center;
+   font-weight: bold;
+   font-family: "Assistant", sans-serif;
+}
